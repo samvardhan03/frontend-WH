@@ -3,6 +3,7 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div>
+      <link rel="stylesheet" href="HomePage.css" />
       <section class="hero">
         <div class="hero-content">
           <h1>Your Technology Partner</h1>
