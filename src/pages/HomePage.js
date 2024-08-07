@@ -2,7 +2,7 @@ import React from "react";
 import "./HomePage.css";
 const HomePage = () => {
   return (
-    <div>
+    <div className="home-page">
       <div className="section">
         <h1>Section 1</h1>
         <p>This is the first section.</p>
