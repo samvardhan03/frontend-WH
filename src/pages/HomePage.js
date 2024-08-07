@@ -1,8 +1,6 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 import "./HomePage.css";
-import App from "../App";
 
 const HomePage = () => {
   return (
