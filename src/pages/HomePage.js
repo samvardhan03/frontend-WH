@@ -3,22 +3,34 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div className="home-page">
-      <div className="card">
-        <h1>Section 1</h1>
-        <p>This is the first section.</p>
-      </div>
-      <div className="card">
-        <h1>Section 2</h1>
-        <ul>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-        </ul>
-      </div>
-      <div className="card">
-        <h1>Section 3</h1>
-        <p>here the data</p>
-      </div>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Your Technology Partner</h1>
+          <p>
+            We design and build digital experiences that drive growth and
+            digital transformation.
+          </p>
+          <button onclick="showMore()">Learn More</button>
+        </div>
+      </section>
+      <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-item" id="service-1">
+          <h3>Service 1</h3>
+          <p>Description of Service 1</p>
+        </div>
+        <div class="service-item" id="service-2">
+          <h3>Service 2</h3>
+          <p>Description of Service 2</p>
+        </div>
+        <div class="service-item" id="service-3">
+          <h3>Service 3</h3>
+          <p>Description of Service 3</p>
+        </div>
+      </section>
+      <footer>
+        <p>&copy; 2024 iTransition. All rights reserved.</p>
+      </footer>
     </div>
   );
 };
