@@ -65,7 +65,11 @@ const HomePage = () => {
           <div className="row">
             <div className="col-md-6 mb-4">
               <blockquote className="blockquote">
-                <p></p>
+                <p>
+                  "DataPredictPro has been a game-changer for our business.
+                  Their predictions have helped us make informed decisions and
+                  stay ahead of the competition."
+                </p>
                 <footer className="blockquote-footer text-white">
                   Devraj Jajoo
                 </footer>
@@ -73,7 +77,11 @@ const HomePage = () => {
             </div>
             <div className="col-md-6 mb-4">
               <blockquote className="blockquote">
-                <p></p>
+                <p>
+                  "The comprehensive reports provided by DataPredictPro have
+                  helped us identify areas of improvement and optimize our
+                  operations."
+                </p>
                 <footer className="blockquote-footer text-white">
                   Samvardhan
                 </footer>
@@ -81,30 +89,17 @@ const HomePage = () => {
             </div>
             <div className="col-md-6 mb-4">
               <blockquote className="blockquote">
-                <p></p>
+                <p>
+                  "The interactive dashboard is so easy to use, even our
+                  non-technical team members can use it to make data-driven
+                  decisions."
+                </p>
                 <footer className="blockquote-footer text-white">Naman</footer>
-              </blockquote>
-            </div>
-            <div className="col-md-6 mb-4">
-              <blockquote className="blockquote">
-                <p></p>
-                <footer className="blockquote-footer text-white">Kshitj</footer>
               </blockquote>
             </div>
           </div>
         </div>
       </section>
-
-      <footer id="contact">
-        <div className="container text-center">
-          <h2 className="mb-4"></h2>
-          <p></p>
-          <p></p>
-          <p></p>
-        </div>
-      </footer>
     </div>
   );
 };
-
-export default HomePage;
