@@ -3,9 +3,21 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div>
-      <bg color="red"></bg>
-      <div className="home-page">
-        <h1>DEVRAJ PLEASE MAKE THIS LOOK GOOD(SHOULD BE RESPONSIVE TOO)</h1>
+      <div className="section">
+        <h1>Section 1</h1>
+        <p>This is the first section.</p>
+      </div>
+      <div className="section">
+        <h1>Section 2</h1>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </div>
+      <div className="section">
+        <h1>Section 3</h1>
+        <img src="image.jpg" alt="An image" />
       </div>
     </div>
   );
