@@ -99,4 +99,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePages;
+export default HomePage;
