@@ -2,7 +2,7 @@ import React from "react";
 import "./HomePage.css";
 const HomePage = () => {
   return (
-    <div className="home-page">
+    <div>
       <section class="hero">
         <div class="hero-content">
           <h1>Your Technology Partner</h1>
@@ -28,9 +28,6 @@ const HomePage = () => {
           <p>Description of Service 3</p>
         </div>
       </section>
-      <footer>
-        <p>&copy; 2024 iTransition. All rights reserved.</p>
-      </footer>
     </div>
   );
 };
