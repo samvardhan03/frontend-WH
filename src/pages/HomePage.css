@@ -1,17 +1,31 @@
-.section {
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* make the container full screen height */
+  overflow-y: auto; /* add a scrollbar if the content is too long */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* make each card full screen height */
+  width: 100vw; /* make each card full screen width */
   background-color: #f0f0f0;
   padding: 20px;
   margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.section:nth-child(1) {
+.card:nth-child(1) {
   background-color: #ff69b4;
 }
 
-.section:nth-child(2) {
+.card:nth-child(2) {
   background-color: #33cc33;
 }
 
-.section:nth-child(3) {
+.card:nth-child(3) {
   background-color: #6666ff;
 }
