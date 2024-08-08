@@ -22,6 +22,8 @@ body {
   display: flex;
   align-items: center;
   color: var(--light-color);
+  margin: 0px;
+  padding: 0px;
 }
 
 .hero h1 {
