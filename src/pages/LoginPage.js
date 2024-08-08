@@ -18,6 +18,7 @@ const LoginPage = () => {
 
   return (
     <div className="overlay">
+      <link rel="stylesheet" href="LoginPage.css" />
       {/* LOGN IN FORM by Omar Dsoky */}
       <form>
         {/*   con = Container  for items in the form*/}
