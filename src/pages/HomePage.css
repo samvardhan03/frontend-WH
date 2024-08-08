@@ -5,17 +5,19 @@
   --light-color: #ecf0f1;
 }
 
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--dark-color);
+}
+
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
   background-size: cover;
   background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
+  align-items: center;
   color: var(--light-color);
 }
 
@@ -38,7 +40,6 @@
 .features {
   background-color: var(--light-color);
   padding: 5rem 0;
-  width: 100vw;
 }
 
 .feature-item {
@@ -66,12 +67,10 @@
   background-position: center;
   color: var(--light-color);
   padding: 5rem 0;
-  width: 100vw;
 }
 
 footer {
   background-color: var(--dark-color);
   color: var(--light-color);
   padding: 2rem 0;
-  width: 100vw;
 }
