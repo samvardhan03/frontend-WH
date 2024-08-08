@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./LoginPage.css";
 import authService from "../services/authService";
 
 const LoginPage = () => {
