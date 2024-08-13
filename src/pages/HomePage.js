@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 
 import "./HomePage.css";
 
-const HomePage = () => {
+const HomePage = (props) => {
   return (
     <div className="home-container">
       <Helmet>
