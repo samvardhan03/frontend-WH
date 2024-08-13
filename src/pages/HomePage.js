@@ -9,36 +9,6 @@ const HomePage = (props) => {
         <title>Xmart</title>
         <meta property="og:title" content="OnConf template" />
       </Helmet>
-      <section className="home-hero">
-        <header className="home-header">
-          <header data-thq="thq-navbar" className="home-navbar">
-            <h2 className="home-text">Xmart</h2>
-            <div
-              data-thq="thq-navbar-nav"
-              data-role="Nav"
-              className="home-desktop-menu"
-            >
-              <nav
-                data-thq="thq-navbar-nav-links"
-                data-role="Nav"
-                className="home-nav"
-              >
-                <span className="navLink">Report</span>
-                <span className="navLink">Dashboard</span>
-              </nav>
-              <Link to="/sign-up" className="home-register button">
-                <span>Register now</span>
-                <svg viewBox="0 0 1024 1024" className="home-icon">
-                  <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
-                </svg>
-              </Link>
-              <Link to="/login" className="home-navlink button">
-                Login
-              </Link>
-            </div>
-          </header>
-        </header>
-      </section>
       <section className="sectionone">
         <div className="home-background">
           <img alt="image" src="/image.png" className="home-image" />
